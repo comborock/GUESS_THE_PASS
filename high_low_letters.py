@@ -8,7 +8,14 @@ middle_let = list("aceimnorsuvwxz")
 HIGH_LET = string.ascii_uppercase
 NUM = string.digits
 SYM = string.punctuation
-print(SYM)
+
+#Legend:
+# H - high letters
+# L - low letters
+# M - middle letters ("i" is questionable)
+# C - capital letters
+# N - digits
+# S - other ascii symbols
 
 string = input("PUT IN TEXT:")
 str2 = ""
