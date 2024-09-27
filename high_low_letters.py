@@ -15,7 +15,9 @@ SYM = string.punctuation
 # M - middle letters ("i" is questionable)
 # C - capital letters
 # N - digits
-# S - other ascii symbols
+# S - ascii punctuations
+# A - other ascii smybols   
+# X - other possibly unicode symbols
 
 string = input("PUT IN TEXT:")
 str2 = ""
